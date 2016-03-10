@@ -7,12 +7,7 @@
   "source": "https://github.com/bazzie/cis",
   "project_page": "https://github.com/bazzie/cis",
   "issues_url": "https://github.com/bazzie/cis/issues",
-  "dependencies": [
-    {
-      "name": "puppetlabs-stdlib",
-      "version_requirement": ">= 1.0.0"
-    }
-  ],
+  "dependencies": [] 
   "operatingsystem_support": [
     {
       "operatingsystem": "Debian",

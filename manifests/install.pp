@@ -4,7 +4,4 @@
 #
 class cis::install {
 
-  package { $::cis::package_name:
-    ensure => present,
-  }
 }

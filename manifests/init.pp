@@ -1,24 +1,21 @@
 # Class: cis
 # ===========================
 #
-# Full description of class cis here.
+# This is the cis class for the CIS puppet module
+# All of the chapters are divided in subclasses: Chapter 1 -> cis::chapter::c1
 #
 # Parameters
 # ----------
 #
-# * `sample parameter`
-#   Explanation of what this parameter affects and what it defaults to.
-#   e.g. "Specify one or more upstream ntp servers as an array."
+# * `cislevel`
+#   Specify the CIS level
 #
 class cis (
-  $package_name = $::cis::params::package_name,
-  $service_name = $::cis::params::service_name,
-) inherits ::cis::params {
 
-  # validate parameters here
+  $cislevel = 1,
 
-  class { '::cis::install': } ->
-  class { '::cis::config': } ~>
-  class { '::cis::service': } ->
+) {
+  class { '::cis::rhel7::c1': } ->
+  class { '::cis::rhel7::c2': } ->
   Class['::cis']
 }
