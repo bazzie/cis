@@ -4,7 +4,7 @@ class cis::cis::limitsconf {
     ensure => present,
     owner  => root,
     group  => root,
-    source => 'puppet:///modules/cis/limits.conf
+    source => 'puppet:///modules/cis/limits.conf'
   }
 
 

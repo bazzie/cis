@@ -6,7 +6,7 @@ class cis::cis::grub {
     mode  => '0600',
   }
 
-  file {'/boot/grub2/grub.cfg':
+  file {'/etc/grub.cfg':
     ensure => absent,
   }
 

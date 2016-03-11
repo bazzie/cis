@@ -11,7 +11,7 @@
 
 class cis::rhel7::c1::c1_6_1 {
 
-  include cis::cis::limits
+  include cis::cis::limitsconf
   include cis::cis::coredump
 
 }

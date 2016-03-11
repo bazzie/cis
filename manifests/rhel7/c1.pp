@@ -48,7 +48,7 @@ class cis::rhel7::c1 {
   include cis::rhel7::c1::c1_6
   include cis::rhel7::c1::c1_6_1
   include cis::rhel7::c1::c1_6_2
-  include cis::rhel7::c1::c1_6_3
+  include cis::rhel7::c1::c1_7
 
 }
 
