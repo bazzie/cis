@@ -17,5 +17,6 @@ class cis (
 ) {
   class { '::cis::rhel7::c1': } ->
   class { '::cis::rhel7::c2': } ->
+  class { '::cis::rhel7::c3': } ->
   Class['::cis']
 }
