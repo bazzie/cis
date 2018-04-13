@@ -7,7 +7,7 @@
   "source": "https://github.com/bazzie/cis",
   "project_page": "https://github.com/bazzie/cis",
   "issues_url": "https://github.com/bazzie/cis/issues",
-  "dependencies": [] 
+  "dependencies": [],
   "operatingsystem_support": [
     {
       "operatingsystem": "Debian",
